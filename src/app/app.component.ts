@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'bases';
+  numero = 0;
+  base = 5;
+
+  Sumar1(valor: number) {
+    this.numero = this.numero + valor;
+  }
 }

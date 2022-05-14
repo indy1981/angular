@@ -1,0 +1,7 @@
+<h1>Heroes component</h1>
+
+<ul>
+    <li *ngFor="let heroe of heroes">{{ heroe }}</li>
+</ul>
+<button (click)="borrarUno()">Borrar</button>
+<h3 *ngIf="heroeBorrado">Heroe Borrado {{ heroeBorrado }}</h3>
